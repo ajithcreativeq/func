@@ -1,0 +1,87 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "4xmVjAh9L3furudofrQdqP",
+      "projectApiToken": "aSm87brWSpd2EFUIYLBZwGZV5OAwBq3eKmPKP6wrwnAnvHk1C9hsHWNsYWuszbTKv3iXaeVcvfBvJmP4rfg",
+      "projectName": "Func",
+      "version": "latest",
+      "cssFilePath": "plasmic/func/plasmic_func.module.css",
+      "components": [
+        {
+          "id": "x5PDssqH1zhr",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "4xmVjAh9L3furudofrQdqP",
+          "renderModuleFilePath": "plasmic/func/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/func/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "ECB77-ndfu",
+          "name": "NewsList",
+          "type": "managed",
+          "projectId": "4xmVjAh9L3furudofrQdqP",
+          "renderModuleFilePath": "plasmic/func/PlasmicNewsList.tsx",
+          "importSpec": {
+            "modulePath": "NewsList.tsx"
+          },
+          "cssFilePath": "plasmic/func/PlasmicNewsList.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [],
+      "images": [
+        {
+          "id": "fEfQIsjXP",
+          "name": "wallpaper.jpg",
+          "filePath": "../public/plasmic/func/images/wallpaperjpg.jpeg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "m3twCB4wE3zkP",
+        "name": "Screen",
+        "projectId": "4xmVjAh9L3furudofrQdqP",
+        "contextFilePath": "plasmic/func/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.182",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.182/dist/plasmic.schema.json"
+}
