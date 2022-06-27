@@ -9,17 +9,27 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@plasmicapp/cli": "^0.1.182",
+    "@apollo/client": "^3.6.9",
+    "@plasmicapp/cli": "^0.0.4",
     "@plasmicapp/host": "^1.0.64",
+    "@plasmicapp/query": "^0.1.50",
     "@plasmicapp/react-web": "^0.2.100",
+    "apollo-boost": "^0.4.9",
+    "gql": "^1.1.2",
+    "gql-query-builder": "^3.6.0",
+    "graphql-tag": "^2.12.6",
     "next": "12.1.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-apollo": "^3.1.5",
+    "react-dom": "18.2.0",
+    "react-router-dom": "^6.3.0",
+    "wpapi": "^1.2.2"
   },
   "devDependencies": {
     "@types/node": "18.0.0",
-    "@types/react": "18.0.14",
+    "@types/react": "^18.0.14",
     "@types/react-dom": "18.0.5",
+    "@types/wpapi": "^1.1.1",
     "eslint": "8.18.0",
     "eslint-config-next": "12.1.6",
     "typescript": "4.7.4"
