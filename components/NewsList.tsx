@@ -33,7 +33,7 @@ function NewsList_(props: NewsListProps, ref: HTMLElementRefOf<"div">) {
           }
       `}>
         {          
-          ({loading, error, data}) => {
+          ({ loading, error, data }: { loading: any; error: any; data: any; }) => {
             if( loading ) {
               return(<div suppressHydrationWarning={true}>Loading..</div>);
             }
